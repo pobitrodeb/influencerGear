@@ -1,0 +1,301 @@
+        /* ##### START GOBAL CSS##### */
+      
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
+
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+        
+        body {
+            margin: 0px;
+            padding: 0px;
+            /* background-color: #ffffff; */
+            
+        }
+        
+        .container-fluid {
+            width: 100%;
+        }
+        
+        .container {
+            max-width: 1300px;
+            margin: 0px auto;
+        }
+        
+        li {
+            list-style: none;
+        }
+        
+        a {
+            text-decoration: none;
+        }
+        /* ##### END  GOBAL CSS##### */
+        header{
+          display: block;
+          margin-top: 30px;
+        }
+        .header-top{
+            display: flex;
+           justify-content: space-between;
+           align-items: center;
+        }
+        .navbar{}
+        .navbar ul{
+            
+        }
+        .navbar ul li{
+            float: left;
+           text-align: left;
+           margin:0px 18px;
+       
+        
+        }
+        .navbar ul li a{
+            color: #3a3a3a;
+            font-size: 18px;
+        }
+        .navbar ul li a:hover{}
+        /* ----------- End Header top --------  */
+        .hero-section{
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            justify-content: center;
+            align-items: center;
+        }
+        .hero-content{
+        }
+        .hero-content h2{
+            font-size: 64px;
+            font-weight: 800;
+        }
+        .hero-content p{
+            width: 70%;
+            font-size: 18px;
+            font-weight: 400;
+            margin:5px 0px 35px 0px;
+        }
+        .hero-content a{
+            padding: 15px 30px;
+            background-color: #e7326b;
+            border-radius: 25px;
+            color: white;
+            font-size: 18px;
+            font-weight: 600;
+            transition: all 0.9s;
+        }
+        
+        .hero-content a span{
+          margin-left: 15px;
+          
+        }
+        .hero-content a:hover{
+            color: #e7326b;
+            background-color: white;
+            border: 1px solid #e7326b;
+            transform: scale(1.3) rotate(15deg)
+        }
+        .hero-photo{}
+        
+        .hero-photo img{
+            width: 80%;
+        }
+         /* ----------- End Header Hero Section  --------  */
+          /* ----------- STAR BAND Section  --------  */ 
+          .band{
+            /* display: grid;
+            grid-template-columns: repeat(6, 1fr); */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 5px 0px;
+            border-top: 1px solid;
+            border-bottom: 1px solid;
+            border-image: linear-gradient(#E6DADA, #E6DADA); 
+            border-image-slice:1;           
+        } 
+        .band-img{
+            margin:15px 25px;
+        }
+        .band-img a{
+            color: #e7326b;
+            font-size: 25px;
+            font-weight: 400;
+        }
+          /* ----------- END BAND Section  --------  */
+          /* ----------- START Collection Section  --------  */
+          .section-title{}
+          .section-title h2{
+              text-align: center;
+              font-size: 32px;
+              font-weight: 700;
+              margin: 32px 0px 5px 0px;
+          }
+            .collectionMain{
+                display: grid;
+                grid-template-columns: repeat(3, 7fr);
+                justify-content: center;
+                align-items: center;
+                /* margin-left: 100px; */
+                margin-top: 10px;
+                background-color: #ffffff;
+            }
+            .moreButton{
+                margin-top: 10px;
+            }
+            .moreButton a {
+                display: block;
+                text-align: right;
+                color: #eb4b7e;
+                font-size: 18px;
+                font-weight: 600;
+                align-items: center;
+            }
+            .collection{
+                justify-content: center;
+                margin: 0px 15px;
+                padding: 8px  10px;
+                border-radius: px;
+                box-shadow: 8px 17px 15px 5px#d2dae2;
+            }
+            .collection img{
+                width: 100%;
+                border-radius: 5px;
+            }
+            .collection h2{
+                font-size: 24px;
+                font-weight: 600;
+                margin: 6px 0px;
+                color: #212228;
+               
+            }
+            .collection h3{
+                font-size: 22px;
+                margin: 10px 0px;
+                font-weight: 400;
+            }
+          .rating{
+              display: flex;
+              align-items: center;
+              align-items: center;
+              
+          }
+          .rating-star{
+              color: #ff8420;
+          }
+          /* .rating .rating-star i:last-child{
+             
+          } */
+          #noRating{
+              color: rgb(224, 224, 224);
+          }
+          .rating-number{
+              margin-left: 15px;
+          }
+          .rating-number h4{
+              font-size: 18px;
+          }
+          .collection p{
+              font-size: 16px;
+              font-weight: 600;
+              color: #787884;
+          }
+          /* ----------- END Collection Section  --------  */
+
+/* <!-- /* ----------- START Products Feature Section  --------  */ 
+.feature{
+    display: flex;
+    justify-content: center;
+}
+.feature-img{}
+.feature-img img{
+    width: 100%;
+}
+.feature-content{
+    margin-left: 65px;
+    width: 50%;
+}
+.feature-content h3,p,a{
+    margin: 35px 0px 28px 0px;
+}
+.feature-content h3{
+    font-size: 44px;
+    font-weight: 600;
+    color: #0b0825;
+}
+.feature-content p{
+    font-size: 18px;
+    font-weight: 400;
+    color: #6c6c6c;
+    width: 85%;
+}
+.feature-content a{
+    padding: 12px 40px 12px 12px;
+    color: white;
+    background-color:#e7326b;
+    font-size: 22px;
+    font-weight: 600;
+    transition: all 0.9s;
+    
+}
+.feature-content a:hover{
+   color: #e7326b;
+   background-color: #fff;
+   border: 1px solid #e7326b;
+   transform: scale(1.3) rotate(5deg)
+}
+
+.feature-content a span{
+    margin-left: 25px;
+}
+/* <!-- /* ----------- END Products Feature Section  --------  */ 
+/* <!-- /* ----------- START FOOTER Section  -------->  */ 
+footer{
+    background-color: #0b0825;
+    margin-top: 35px;
+    padding: 40px 0px;
+}
+.main-footer{
+    display: grid;
+    /* grid-template-rows:100%; */
+    justify-content: center;
+    text-align: center;
+    color: white;
+}
+.main-footer h2,h3,h4{
+    margin: 5px 0px;
+}
+.main-footer h2{
+    font-size: 28px;
+    font-weight: 600;
+}
+.main-footer h3{
+    font-size: 14px;
+    font-weight: 400;
+}
+.main-footer h4{
+    font-size: 12px;
+    font-weight: 400;
+}
+.socail-media-Manin{
+    display: flex;
+    justify-content: center;
+}
+.socail-media{
+    margin: 0px 15px;
+}
+.socail-media a{
+    display: block;
+    padding: 12px 18px;
+    border-radius: 15%;
+    color: white;
+    background-color: #23203a;
+    font-size: 22px;
+    transition: all 0.3s;
+}
+.socail-media a:hover{
+    transform: scale(1.3) rotate(180deg)
+}
+
+/* <!-- /* ----------- END FOOTER Section  -------- > */ 
+
